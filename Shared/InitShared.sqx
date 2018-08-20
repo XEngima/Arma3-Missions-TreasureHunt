@@ -1,0 +1,9 @@
+execVM "Shared\InitShared.sqx";
+
+if (isServer) then {
+	execVM "Server\InitServer.sqx";
+};
+
+if (!isDedicated) then {
+	execVM "Client\InitClient.sqx";
+};

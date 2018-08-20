@@ -1,0 +1,1 @@
+execVM "Init.sqx.sqf";
